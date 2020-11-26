@@ -3,16 +3,14 @@
  int main(){
 // khai bao bien R,PI,CV,DT kieu double
  double R,PI,CV,DT;
- float chuvi, dientich;
-
  // gan gia tri bien
  
  R = 2.5;
  PI = 3.14;
- chuvi = 2*R*PI;
- dientich = R*R*PI;
+ CV = 2*R*PI;
+ DT = R*R*PI;
  // in ra man hinh
- printf("chu vi \ t dien tich \n %0.1f\ t %1f",chuvi,dientich);
+ printf("chu vi \ t dien tich \n %0.1f\ t %1f",CV,DT);
  getchar();
  return 0;
  }
