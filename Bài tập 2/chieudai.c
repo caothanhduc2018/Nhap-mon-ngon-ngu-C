@@ -14,6 +14,5 @@ scanf ("%d", & mm);
 cm=l*100;
 mm=l*1000;
 printf("m\t cm\t mm\t %d %d %d",m,cm,mm);
- printf("
 return 0;
 }
