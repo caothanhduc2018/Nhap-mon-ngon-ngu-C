@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(void){
+ // khai bao bien V,T 
 double V,T;
 printf ("nhap diem mon V= ");
 scanf ("%f",& V);
