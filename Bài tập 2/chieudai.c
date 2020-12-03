@@ -1,8 +1,8 @@
 #include <stdio.h>
-int mian(void){
+int main(void){
 
 int l;
-//khai bao bien m,cm,mm
+//khai bao don vi m,cm,mm
 double m,cm,mm ;
 printf ("Nhap chieu dai  l=");
 scanf ("%d",&l);
