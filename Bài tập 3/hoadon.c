@@ -7,9 +7,9 @@ int main(){
 	scanf("%d", & dongia);
 	printf ("nhap so luong =");
 	scanf ("%d", & soluong);
-	// so luong mua > 5, 
+	// so luong mua > 5, don gia >500
 	
-	if(soluong >=5){
+	if(soluong >=5&&dongia >=500){
 	thanhtien=(dongia)* (soluong )*0.75;
 	printf("%d",thanhtien);
 	}else {printf("%f",thanhtien);}
