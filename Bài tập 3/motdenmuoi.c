@@ -6,9 +6,5 @@ int main(){
  {
  printf(" %d  ", i);
  }
- for (i = 1; i <11; ++i)
- {
-   printf ("\n %d  ", i);
- }
   return 0;
 }
