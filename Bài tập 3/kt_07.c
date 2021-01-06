@@ -12,6 +12,8 @@ int main(){
     printf("Day la tam giac ");
     }
     else
-    {}
+    {
+        printf(day khong phai la hinh tam giac);
+    }
     return 0;
 }
