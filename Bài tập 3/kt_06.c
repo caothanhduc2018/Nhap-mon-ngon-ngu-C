@@ -2,15 +2,16 @@
 
 int main ()
 {
-int n,i,j;// khai bao bien du lieu
-printf ("nhap n : ");
-scanf ("%d" , &n);
-printf (" tam giac vuong can:\n\n ");
-for (i = 1 ; i <=n; i++)
+int n,a,b;
+printf("nhap chieu cao tam giac:");
+scanf("%d",&n);
+for(a=1;a<=n;a++)
 {
-for (j = 1 ; j <=n; j++)
-printf (" * ");
-printf (" \n ");
+for(b=1;b<=n-a;b++)
+printf(" ");
+for(b=1;b<=2*a-1;b++)
+printf("*");
+printf("\n\n");
 }
 return 0;
 }
