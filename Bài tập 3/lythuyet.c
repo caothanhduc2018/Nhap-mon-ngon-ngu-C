@@ -19,3 +19,10 @@ int main(){
   tong = tong + 9;
   tong = tong + 10;
   return 0;
+
+  int main();
+float a,b;
+printf ("nhap a: ");
+scanf ("%f", &a);
+printf ("nhap b: ");
+scanf ("%f", &b);
