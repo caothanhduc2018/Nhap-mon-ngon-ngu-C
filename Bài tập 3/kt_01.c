@@ -2,11 +2,30 @@
 
 int main() {
   int a , b;
-for (a = 2; a <= 9; a++) {
-for (b = 1; b <= 9; b++) {
-  printf ("%d x %d = %d\n", a, b , a*b );}
-  printf ("\n");
-}
-getchar();
-return 0;
+  printf("bang nhan ");
+  a = 2, b = 1;
+  printf ("%d x %d = %d\n", a, b , a*b);
+  a = 2, b = 2;
+  printf ("%d x %d = %d\n", a, b , a*b);
+  a = 2, b = 3;
+  printf ("%d x %d = %d\n", a, b , a*b);
+
+  printf ("bang nhan ");
+  a = 3, b = 1;
+  printf ("%d x %d = %d\n", a, b , a*b);
+  a = 3, b = 2;
+  printf ("%d x %d = %d\n", a, b , a*b);
+  a = 3, b = 3;
+  printf ("%d x %d = %d\n", a, b , a*b);
+
+  printf ("bang nhan ");
+  a = 4, b = 1;
+  printf ("%d x %d = %d\n", a, b , a*b);
+  a = 4, b = 2;
+  printf ("%d x %d = %d\n", a, b , a*b);
+  a = 4, b = 3;
+  printf ("%d x %d = %d\n", a, b , a*b);
+
+  getchar();
+  return 0 ;
 }
