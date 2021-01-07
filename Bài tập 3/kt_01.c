@@ -27,4 +27,5 @@ int main() {
   printf ("%d x %d = %d\n", a, b , a*b);
 
   getchar();
-  r
+  return o;
+}
