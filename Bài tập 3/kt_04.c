@@ -1,23 +1,15 @@
-#include<stdio.h>
-int main(){   
-int n,tong=0,m;  
+#include <stdio.h>
+int main(){
+    int n;
+    int arata;
+    int s = 0;
+    printf("Nhap n: ");
+    scanf("%d",&n);
+    for(;n!=0;){
+        arata = n % 10;
+        s += arata;
+        n /= 10; 
+    printf("%d",s);}
 
-printf("Nhap mot so bat ky: ");  
-scanf("%d",&n);  
-
-m=n%10;  
-tong=tong+m ;  
-n=n/10;
-
-m=n%10;  
-tong=tong+m ;  
-n=n/10;
-
-m=n%10;  
-tong=tong+m ;  
-n=n/10;
-  
-printf(" \nTong cac ky so cua so da cho %d ",tong); 
 return 0;
-
 }
