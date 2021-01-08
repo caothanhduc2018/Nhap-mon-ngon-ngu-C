@@ -34,7 +34,7 @@ n= n/10;
  while (n!=0; n %10)
  s = s + n=n/1=;
 
-printf ("\n tong cua so %d ");
+printf ("%d",s);
 
 return 0 ; 
 }
