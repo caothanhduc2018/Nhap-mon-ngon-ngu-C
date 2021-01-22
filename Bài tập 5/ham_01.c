@@ -1,3 +1,5 @@
+có kiểu dữ liệu trả về (int)
+
 #include <stdio.h>
 int sum(int a, int b, int c);// khai bao ham sum
 int sum(int a, int b, int c ){// dinh nghia ham sum
@@ -9,7 +11,7 @@ int main(){
 }
 
 
-không có kiểu dữ liệu trả về
+không có kiểu dữ liệu trả về (void)
 // khoi khai bao 
 #include<stdio.h>
 void sum(int a, int b, int c);
