@@ -16,4 +16,9 @@ int main(){
   return 0;
 }
 
+int kiem_tra_am_duong (int n){
+ if ((n) > 0 && (n) < 0);
+ return n;
+}
+
 
