@@ -42,7 +42,7 @@ a) trình bày bộ chữ viết trong ngôn ngữ c ?
   các hàm này được định nghĩ qua tập tin mở rông.h (stdio.h, conio,h)
   * hàm do người dùng định nghĩa : định nghĩa theo nhu cầu của người dùng, qua đó tìm hiểu về cú pháp khai báo , định nghĩa và gọi hàm loại này.
   
-  d) trình bày nguyên tắc hoạt động của hàm trong ngôn ngữ c?
+  f) trình bày nguyên tắc hoạt động của hàm trong ngôn ngữ c?
   kieu_du_lieu_tra_ve tên_hàm(danh_sách_tham_so);
   ví dụ 
   // khoi khai bao 
