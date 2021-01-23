@@ -1,5 +1,4 @@
-  
-#include <stdio.h>
+ #include <stdio.h>
 int  somax(int a, int b,int c);
 
  int main(){
@@ -15,14 +14,10 @@ int  somax(int a, int b,int c);
    
    int somax(int a,int b, int c){
   int max=0;
-	if (max < a){
+	if (max < a && max < b && max < c  ){
 		max=a;
-	}
-	if (max < b){
 		max=b;
-	}
-	if (max < c){
 		max=c;
-	}
+  }
 	return max;
-   }
+  }
