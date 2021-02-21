@@ -1,0 +1,16 @@
+#include <stdio.h>
+ int main(){
+   // khai bao nhap n tu ban phim 
+     int n;
+     float tong = 0;
+
+    printf ("nhap so nguyen bat ky n = ");
+    scanf ("%d", &n);
+   
+   float i;
+   for ( i = 1; i < n; i++){
+       tong = tong + i/(i+1);// ep so nguyen sang kieu so thuc
+   }
+     printf (" hien thi ket qua cua tong %d=%f ",n , tong);
+   return 0;
+   }
