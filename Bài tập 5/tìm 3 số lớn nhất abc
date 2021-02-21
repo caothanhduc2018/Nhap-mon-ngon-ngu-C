@@ -1,0 +1,27 @@
+// khoi khai bao
+ #include <stdio.h>
+int  somax(int a, int b,int c);
+// khoi ham main
+
+ int main(){
+// khai bao nhap a,b,c tu ban phim
+   int a, b, c;
+  printf("Nhap vao lan luot a, b, c:  ");
+  scanf("%d %d %d", &a , &b , &c );
+
+  
+  int i =somax( a, b ,c);
+  printf("So lon nhat trong ba so la: %d",  i );
+}
+   // khoi dinh nghia  ham
+   int somax(int a,int b, int c){
+   int max=0;
+  // so sanh a , b ,c
+	if (max < a && max < b && max < c  ){
+		max=a;
+		max=b;
+		max=c;
+  }
+	return max;
+  }
+  
